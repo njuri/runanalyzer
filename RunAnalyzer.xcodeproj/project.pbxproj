@@ -15,13 +15,16 @@
 		CB565B11195AD878007EFD30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB565B10195AD878007EFD30 /* AppDelegate.m */; };
 		CB565B14195AD878007EFD30 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB565B12195AD878007EFD30 /* Main_iPhone.storyboard */; };
 		CB565B17195AD878007EFD30 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB565B15195AD878007EFD30 /* Main_iPad.storyboard */; };
-		CB565B1A195AD878007EFD30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB565B19195AD878007EFD30 /* ViewController.m */; };
+		CB565B1A195AD878007EFD30 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB565B19195AD878007EFD30 /* SettingsViewController.m */; };
 		CB565B1C195AD878007EFD30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB565B1B195AD878007EFD30 /* Images.xcassets */; };
 		CB565B23195AD878007EFD30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB565B22195AD878007EFD30 /* XCTest.framework */; };
 		CB565B24195AD878007EFD30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB565B00195AD878007EFD30 /* Foundation.framework */; };
 		CB565B25195AD878007EFD30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB565B04195AD878007EFD30 /* UIKit.framework */; };
 		CB565B2D195AD878007EFD30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB565B2B195AD878007EFD30 /* InfoPlist.strings */; };
 		CB565B2F195AD878007EFD30 /* RunAnalyzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB565B2E195AD878007EFD30 /* RunAnalyzerTests.m */; };
+		CB756711195C51AB0059715D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756710195C51AB0059715D /* Calculator.m */; };
+		CB756717195C8B650059715D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756716195C8B650059715D /* TableViewController.m */; };
+		CB75671D195DA8510059715D /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB75671C195DA8510059715D /* SpeedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +50,20 @@
 		CB565B10195AD878007EFD30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CB565B13195AD878007EFD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CB565B16195AD878007EFD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		CB565B18195AD878007EFD30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB565B19195AD878007EFD30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB565B18195AD878007EFD30 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		CB565B19195AD878007EFD30 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		CB565B1B195AD878007EFD30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB565B21195AD878007EFD30 /* RunAnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunAnalyzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB565B22195AD878007EFD30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CB565B2A195AD878007EFD30 /* RunAnalyzerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RunAnalyzerTests-Info.plist"; sourceTree = "<group>"; };
 		CB565B2C195AD878007EFD30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB565B2E195AD878007EFD30 /* RunAnalyzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunAnalyzerTests.m; sourceTree = "<group>"; };
+		CB75670F195C51AB0059715D /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		CB756710195C51AB0059715D /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		CB756715195C8B650059715D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CB756716195C8B650059715D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CB75671B195DA8510059715D /* SpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedViewController.h; sourceTree = "<group>"; };
+		CB75671C195DA8510059715D /* SpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +127,14 @@
 				CB565B10195AD878007EFD30 /* AppDelegate.m */,
 				CB565B12195AD878007EFD30 /* Main_iPhone.storyboard */,
 				CB565B15195AD878007EFD30 /* Main_iPad.storyboard */,
-				CB565B18195AD878007EFD30 /* ViewController.h */,
-				CB565B19195AD878007EFD30 /* ViewController.m */,
+				CB75670F195C51AB0059715D /* Calculator.h */,
+				CB756710195C51AB0059715D /* Calculator.m */,
+				CB565B18195AD878007EFD30 /* SettingsViewController.h */,
+				CB565B19195AD878007EFD30 /* SettingsViewController.m */,
+				CB756715195C8B650059715D /* TableViewController.h */,
+				CB756716195C8B650059715D /* TableViewController.m */,
+				CB75671B195DA8510059715D /* SpeedViewController.h */,
+				CB75671C195DA8510059715D /* SpeedViewController.m */,
 				CB565B1B195AD878007EFD30 /* Images.xcassets */,
 				CB565B07195AD878007EFD30 /* Supporting Files */,
 			);
@@ -252,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB565B1A195AD878007EFD30 /* ViewController.m in Sources */,
+				CB75671D195DA8510059715D /* SpeedViewController.m in Sources */,
+				CB565B1A195AD878007EFD30 /* SettingsViewController.m in Sources */,
+				CB756711195C51AB0059715D /* Calculator.m in Sources */,
 				CB565B11195AD878007EFD30 /* AppDelegate.m in Sources */,
+				CB756717195C8B650059715D /* TableViewController.m in Sources */,
 				CB565B0D195AD878007EFD30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +487,7 @@
 				CB565B34195AD878007EFD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB565B35195AD878007EFD30 /* Build configuration list for PBXNativeTarget "RunAnalyzerTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +496,7 @@
 				CB565B37195AD878007EFD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
