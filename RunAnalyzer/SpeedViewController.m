@@ -27,20 +27,19 @@
 NSString *distanceFormat = @"km";
 NSString *speedFormat = @"km/h";
 NSArray *timesArray,*labelArray,*fields,*pickerdata;
-BOOL showPicker;
 BOOL kilometersOrMiles;
 long totalSeconds = 0;
 long mode;
 double speed;
+int columns = 3;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self initialLoad];
+    [self loadData];
     self.picker.dataSource = self;
     self.picker.delegate = self;
-    showPicker = NO;
-    [self loadData];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -72,7 +71,7 @@ double speed;
 // The number of columns of data
 - (long)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
-    return 3;
+    return columns;
 }
 // Set number of rows in each column
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component

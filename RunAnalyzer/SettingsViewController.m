@@ -8,6 +8,7 @@
 
 #import "SettingsViewController.h"
 #import "SpeedViewController.h"
+#import "DistanceViewController.h"
 @interface SettingsViewController ()
 @property (weak, nonatomic) IBOutlet UISegmentedControl *speedSegment;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *unitSegment;
@@ -31,14 +32,18 @@
     }
     SpeedViewController *spd = [[SpeedViewController alloc] init];
     [spd loadUnits:self];
-
+    DistanceViewController *dpd = [[DistanceViewController alloc] init];
+    [dpd loadUnits:self];
+    
 }
 
 - (IBAction)speedSelector:(id)sender {
-        _speedFormat = [_speedSegment titleForSegmentAtIndex:_speedSegment.selectedSegmentIndex];
-        _speedMode = _speedSegment.selectedSegmentIndex;
-        SpeedViewController *spd = [[SpeedViewController alloc] init];
-        [spd loadUnits:self];
+    _speedFormat = [_speedSegment titleForSegmentAtIndex:_speedSegment.selectedSegmentIndex];
+    _speedMode = _speedSegment.selectedSegmentIndex;
+    SpeedViewController *spd = [[SpeedViewController alloc] init];
+    [spd loadUnits:self];
+    DistanceViewController *dpd = [[DistanceViewController alloc] init];
+    [dpd loadUnits:self];
 }
 
 
@@ -63,6 +68,8 @@
     }
     SpeedViewController *spd = [[SpeedViewController alloc] init];
     [spd loadUnits:self];
+    DistanceViewController *dpd = [[DistanceViewController alloc] init];
+    [dpd loadUnits:self];
 }
 
 - (void)didReceiveMemoryWarning

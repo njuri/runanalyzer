@@ -14,7 +14,6 @@
 		CB565B0D195AD878007EFD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB565B0C195AD878007EFD30 /* main.m */; };
 		CB565B11195AD878007EFD30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB565B10195AD878007EFD30 /* AppDelegate.m */; };
 		CB565B14195AD878007EFD30 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB565B12195AD878007EFD30 /* Main_iPhone.storyboard */; };
-		CB565B17195AD878007EFD30 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB565B15195AD878007EFD30 /* Main_iPad.storyboard */; };
 		CB565B1A195AD878007EFD30 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB565B19195AD878007EFD30 /* SettingsViewController.m */; };
 		CB565B1C195AD878007EFD30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB565B1B195AD878007EFD30 /* Images.xcassets */; };
 		CB565B23195AD878007EFD30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB565B22195AD878007EFD30 /* XCTest.framework */; };
@@ -25,6 +24,8 @@
 		CB756711195C51AB0059715D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756710195C51AB0059715D /* Calculator.m */; };
 		CB756717195C8B650059715D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756716195C8B650059715D /* TableViewController.m */; };
 		CB75671D195DA8510059715D /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB75671C195DA8510059715D /* SpeedViewController.m */; };
+		CB756724195F134C0059715D /* DistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756723195F134C0059715D /* DistanceViewController.m */; };
+		CB75672A195F65480059715D /* DurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756729195F65480059715D /* DurationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,6 @@
 		CB565B0F195AD878007EFD30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB565B10195AD878007EFD30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CB565B13195AD878007EFD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		CB565B16195AD878007EFD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		CB565B18195AD878007EFD30 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		CB565B19195AD878007EFD30 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		CB565B1B195AD878007EFD30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -64,6 +64,10 @@
 		CB756716195C8B650059715D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		CB75671B195DA8510059715D /* SpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedViewController.h; sourceTree = "<group>"; };
 		CB75671C195DA8510059715D /* SpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedViewController.m; sourceTree = "<group>"; };
+		CB756722195F134C0059715D /* DistanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceViewController.h; sourceTree = "<group>"; };
+		CB756723195F134C0059715D /* DistanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceViewController.m; sourceTree = "<group>"; };
+		CB756728195F65480059715D /* DurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationViewController.h; sourceTree = "<group>"; };
+		CB756729195F65480059715D /* DurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DurationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +130,6 @@
 				CB565B0F195AD878007EFD30 /* AppDelegate.h */,
 				CB565B10195AD878007EFD30 /* AppDelegate.m */,
 				CB565B12195AD878007EFD30 /* Main_iPhone.storyboard */,
-				CB565B15195AD878007EFD30 /* Main_iPad.storyboard */,
 				CB75670F195C51AB0059715D /* Calculator.h */,
 				CB756710195C51AB0059715D /* Calculator.m */,
 				CB565B18195AD878007EFD30 /* SettingsViewController.h */,
@@ -135,6 +138,10 @@
 				CB756716195C8B650059715D /* TableViewController.m */,
 				CB75671B195DA8510059715D /* SpeedViewController.h */,
 				CB75671C195DA8510059715D /* SpeedViewController.m */,
+				CB756722195F134C0059715D /* DistanceViewController.h */,
+				CB756723195F134C0059715D /* DistanceViewController.m */,
+				CB756728195F65480059715D /* DurationViewController.h */,
+				CB756729195F65480059715D /* DurationViewController.m */,
 				CB565B1B195AD878007EFD30 /* Images.xcassets */,
 				CB565B07195AD878007EFD30 /* Supporting Files */,
 			);
@@ -245,7 +252,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB565B17195AD878007EFD30 /* Main_iPad.storyboard in Resources */,
 				CB565B1C195AD878007EFD30 /* Images.xcassets in Resources */,
 				CB565B14195AD878007EFD30 /* Main_iPhone.storyboard in Resources */,
 				CB565B0B195AD878007EFD30 /* InfoPlist.strings in Resources */,
@@ -267,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB75672A195F65480059715D /* DurationViewController.m in Sources */,
 				CB75671D195DA8510059715D /* SpeedViewController.m in Sources */,
 				CB565B1A195AD878007EFD30 /* SettingsViewController.m in Sources */,
 				CB756711195C51AB0059715D /* Calculator.m in Sources */,
+				CB756724195F134C0059715D /* DistanceViewController.m in Sources */,
 				CB565B11195AD878007EFD30 /* AppDelegate.m in Sources */,
 				CB756717195C8B650059715D /* TableViewController.m in Sources */,
 				CB565B0D195AD878007EFD30 /* main.m in Sources */,
@@ -309,14 +317,6 @@
 				CB565B13195AD878007EFD30 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		CB565B15195AD878007EFD30 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB565B16195AD878007EFD30 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		CB565B2B195AD878007EFD30 /* InfoPlist.strings */ = {
@@ -411,6 +411,7 @@
 				GCC_PREFIX_HEADER = "RunAnalyzer/RunAnalyzer-Prefix.pch";
 				INFOPLIST_FILE = "RunAnalyzer/RunAnalyzer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -424,6 +425,7 @@
 				GCC_PREFIX_HEADER = "RunAnalyzer/RunAnalyzer-Prefix.pch";
 				INFOPLIST_FILE = "RunAnalyzer/RunAnalyzer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
