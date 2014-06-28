@@ -102,6 +102,7 @@ double speed;
         UILabel *label = [labelArray objectAtIndex:component];
         [label setText:[[timesArray objectAtIndex:component] objectAtIndex:row]];
     }
+    [self saveCalculationsState:self.picker];
 }
 // Speed calculation
 - (IBAction)calculate:(id)sender {
