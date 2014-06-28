@@ -63,14 +63,23 @@
         
     }
 }
--(double)calculateTimeUsingSpeed:(double)speed andDistance:(double)distance{
-    return 0;
+-(NSArray*)calculateTimeUsingSpeed:(double)speed andDistance:(double)distance withMode:(long)mode kilometers:(BOOL)km{
+    if (mode == 0) {
+        return [self getHoursMinutesSecondsFromSeconds:distance/speed*3600];
+    }
+    else if (mode == 1){
+        return [self getHoursMinutesSecondsFromSeconds:distance*speed*60];
+    }
+    else{
+        return NULL;
+    }
 }
 
 -(NSArray *)getHoursMinutesSecondsFromSeconds:(int)totalSeconds{
     int seconds = totalSeconds % 60;
     int minutes = (totalSeconds / 60) % 60;
     int hours = totalSeconds / 3600;
+    NSLog(@"%i",hours);
     NSArray *ar = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:hours],[NSNumber numberWithInt:minutes],[NSNumber numberWithInt:seconds], nil];
     return ar;
 }

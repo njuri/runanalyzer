@@ -61,6 +61,8 @@ int columns2 = 3;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//Calculate distance
 - (IBAction)calculateDistance:(id)sender {
     Calculator *calc = [[Calculator alloc]init];
     if(_speedField.text.length>0){
@@ -78,9 +80,9 @@ int columns2 = 3;
             [_resultLabel setText:@"0 values"];
         }
     }
-
 }
 
+// Auto-hide while field loses focus
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [self.view endEditing:YES];
 }
@@ -99,7 +101,6 @@ int columns2 = 3;
     }
     timesArray = [[NSArray alloc] initWithObjects:_hoursArray,_minutesArray,_secondsArray, nil];
     labelArray = [[NSArray alloc] initWithObjects:_hoursLabel,_minutesLabel,_secondsLabel, nil];
-    
 }
 
 // The number of columns of data
@@ -138,13 +139,12 @@ int columns2 = 3;
     [self saveCalculationsState:self.picker];
 }
 
-
 //Load data
 -(void)loadData{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     if ([defaults objectForKey:@"Speed2"]||[defaults objectForKey:@"Distance2"]){
         NSLog(@"loading");
-        self.speedField.text = [defaults valueForKey:@"Speed2"];;
+        self.speedField.text = [defaults valueForKey:@"Speed2"];
         self.hoursLabel.text = [defaults valueForKey:@"Time11"];
         self.minutesLabel.text = [defaults valueForKey:@"Time22"];
         self.secondsLabel.text = [defaults valueForKey:@"Time33"];

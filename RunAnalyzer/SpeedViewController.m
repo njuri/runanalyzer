@@ -68,6 +68,26 @@ int columns = 3;
     [self.view endEditing:YES];
 }
 
+// Speed calculation
+- (IBAction)calculate:(id)sender {
+    Calculator *calc = [[Calculator alloc]init];
+    if(_distanceField.text.length>0){
+        double distance = [[_distanceField text] doubleValue];
+        long hours = [[_hoursLabel text] integerValue];
+        long minutes = [[_minutesLabel text] integerValue];
+        long seconds = [[_secondsLabel text] integerValue];
+        totalSeconds = hours*3600+minutes*60+seconds;
+        if (!(totalSeconds ==0||distance==0)) {
+            speed = [calc calculateSpeedUsingDistance:distance andTime:totalSeconds withMode:mode kilometers:kilometersOrMiles];
+            NSLog(@"Calculating distance: %f and seconds %ld",distance,totalSeconds);
+            [_speedUnitLabel setText:[NSString stringWithFormat:@"%.2f %@",speed,speedFormat]];
+        }
+        else{
+            [_speedUnitLabel setText:@"0 values"];
+        }
+    }
+}
+
 // The number of columns of data
 - (long)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
@@ -103,26 +123,7 @@ int columns = 3;
     }
     [self saveCalculationsState:self.picker];
 }
-// Speed calculation
-- (IBAction)calculate:(id)sender {
-    Calculator *calc = [[Calculator alloc]init];
-    if(_distanceField.text.length>0){
-        double distance = [[_distanceField text] doubleValue];
-        long hours = [[_hoursLabel text] integerValue];
-        long minutes = [[_minutesLabel text] integerValue];
-        long seconds = [[_secondsLabel text] integerValue];
-        totalSeconds = hours*3600+minutes*60+seconds;
-        if (!(totalSeconds ==0||distance==0)) {
-            speed = [calc calculateSpeedUsingDistance:distance andTime:totalSeconds withMode:mode kilometers:kilometersOrMiles];
-            NSLog(@"Calculating distance: %f and seconds %ld",distance,totalSeconds);
-            [_speedUnitLabel setText:[NSString stringWithFormat:@"%.2f %@",speed,speedFormat]];
-        }
-        else{
-            [_speedUnitLabel setText:@"0 values"];
-        }
-    }
-    
-}
+
 //Initial load
 -(void)initialLoad{
     _secondsArray = [[NSMutableArray alloc]init];
@@ -137,7 +138,6 @@ int columns = 3;
     }
     timesArray = [[NSArray alloc] initWithObjects:_hoursArray,_minutesArray,_secondsArray, nil];
     labelArray = [[NSArray alloc] initWithObjects:_hoursLabel,_minutesLabel,_secondsLabel, nil];
-    
 }
 
 //Load data

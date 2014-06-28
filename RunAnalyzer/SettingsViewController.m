@@ -9,6 +9,7 @@
 #import "SettingsViewController.h"
 #import "SpeedViewController.h"
 #import "DistanceViewController.h"
+#import "DurationViewController.h"
 @interface SettingsViewController ()
 @property (weak, nonatomic) IBOutlet UISegmentedControl *speedSegment;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *unitSegment;
@@ -30,20 +31,24 @@
     else{
         _kilometersOrMiles = NO;
     }
-    SpeedViewController *spd = [[SpeedViewController alloc] init];
-    [spd loadUnits:self];
-    DistanceViewController *dpd = [[DistanceViewController alloc] init];
-    [dpd loadUnits:self];
+    SpeedViewController *svc = [[SpeedViewController alloc] init];
+    [svc loadUnits:self];
+    DistanceViewController *divc = [[DistanceViewController alloc] init];
+    [divc loadUnits:self];
+    DurationViewController *duvc = [[DurationViewController alloc] init];
+    [duvc loadUnits:self];
     
 }
 
 - (IBAction)speedSelector:(id)sender {
     _speedFormat = [_speedSegment titleForSegmentAtIndex:_speedSegment.selectedSegmentIndex];
     _speedMode = _speedSegment.selectedSegmentIndex;
-    SpeedViewController *spd = [[SpeedViewController alloc] init];
-    [spd loadUnits:self];
-    DistanceViewController *dpd = [[DistanceViewController alloc] init];
-    [dpd loadUnits:self];
+    SpeedViewController *svc = [[SpeedViewController alloc] init];
+    [svc loadUnits:self];
+    DistanceViewController *divc = [[DistanceViewController alloc] init];
+    [divc loadUnits:self];
+    DurationViewController *duvc = [[DurationViewController alloc] init];
+    [duvc loadUnits:self];
 }
 
 
@@ -66,10 +71,12 @@
     else{
         _kilometersOrMiles = NO;
     }
-    SpeedViewController *spd = [[SpeedViewController alloc] init];
-    [spd loadUnits:self];
-    DistanceViewController *dpd = [[DistanceViewController alloc] init];
-    [dpd loadUnits:self];
+    SpeedViewController *svc = [[SpeedViewController alloc] init];
+    [svc loadUnits:self];
+    DistanceViewController *divc = [[DistanceViewController alloc] init];
+    [divc loadUnits:self];
+    DurationViewController *duvc = [[DurationViewController alloc] init];
+    [duvc loadUnits:self];
 }
 
 - (void)didReceiveMemoryWarning

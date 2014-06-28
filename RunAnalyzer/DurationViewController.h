@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class SettingsViewController;
 @interface DurationViewController : UIViewController
-
+-(void)loadUnits:(SettingsViewController*)svc;
 @end

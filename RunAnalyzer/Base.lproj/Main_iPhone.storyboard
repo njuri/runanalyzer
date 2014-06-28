@@ -396,39 +396,45 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xaj-dx-Zgk">
-                                <rect key="frame" x="112" y="109" width="97" height="30"/>
+                                <rect key="frame" x="112" y="176" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="saveCalculationsState:" destination="4Ix-0B-xL3" eventType="editingDidEnd" id="NFH-pu-h7A"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83u-Tv-48m">
-                                <rect key="frame" x="135" y="79" width="50" height="21"/>
+                                <rect key="frame" x="135" y="146" width="50" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEX-9T-Ash">
-                                <rect key="frame" x="209" y="113" width="91" height="21"/>
+                                <rect key="frame" x="209" y="180" width="91" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KLj-f6-bwa">
-                                <rect key="frame" x="112" y="177" width="97" height="30"/>
+                                <rect key="frame" x="112" y="108" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="saveCalculationsState:" destination="4Ix-0B-xL3" eventType="editingDidEnd" id="hJq-N9-reS"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axh-b3-cQA">
-                                <rect key="frame" x="127" y="148" width="67" height="21"/>
+                                <rect key="frame" x="127" y="79" width="67" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hH-ub-TJ3">
-                                <rect key="frame" x="209" y="181" width="91" height="21"/>
+                                <rect key="frame" x="209" y="112" width="91" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -443,6 +449,7 @@
                                 </state>
                                 <connections>
                                     <action selector="calculateDuration:" destination="4Ix-0B-xL3" eventType="touchUpInside" id="IPA-cD-EqA"/>
+                                    <action selector="saveCalculationsState:" destination="4Ix-0B-xL3" eventType="touchUpInside" id="5LD-4v-EiQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiJ-Jt-ltG">
@@ -505,9 +512,13 @@
                                     <segue destination="S3L-jW-hW7" kind="push" id="XVZ-RF-fYN"/>
                                 </connections>
                             </button>
+                            <connections>
+                                <action selector="saveCalculationsState:" destination="4Ix-0B-xL3" id="utJ-Mn-sxN"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="calcButton" destination="x3J-fX-C5O" id="iPa-Xc-QEK"/>
                         <outlet property="distanceField" destination="KLj-f6-bwa" id="JaK-db-0Fu"/>
                         <outlet property="distanceUnitLabel" destination="4hH-ub-TJ3" id="VdS-LM-k6D"/>
                         <outlet property="hoursLabel" destination="YLl-vZ-VEk" id="5rL-Dy-U7S"/>
