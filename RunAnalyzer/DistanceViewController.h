@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
 @class SettingsViewController;
 
 @interface DistanceViewController : UIViewController  <UIPickerViewDataSource, UIPickerViewDelegate>
@@ -15,6 +16,7 @@
 @property (strong,nonatomic) NSMutableArray *secondsArray;
 @property (strong,nonatomic) NSMutableArray *minutesArray;
 @property (strong,nonatomic) NSMutableArray *hoursArray;
+@property (strong,nonatomic) SLComposeViewController *slComposeViewController;
 
 -(void)loadUnits:(SettingsViewController*)svc;
 

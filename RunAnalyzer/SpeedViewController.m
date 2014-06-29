@@ -29,7 +29,7 @@ NSString *speedFormat = @"km/h";
 NSArray *timesArray,*labelArray,*fields,*pickerdata;
 BOOL kilometersOrMiles;
 long totalSeconds = 0;
-long mode;
+long speedMode;
 double speed;
 int columns = 3;
 
@@ -58,8 +58,7 @@ int columns = 3;
 -(void)loadUnits:(SettingsViewController *)svc{
     distanceFormat = svc.distanceFormat;
     speedFormat = svc.speedFormat;
-    NSLog(@"Speed format: %@",speedFormat);
-    mode = svc.speedMode;
+    speedMode = svc.speedMode;
     kilometersOrMiles = svc.kilometersOrMiles;
 }
 
@@ -70,6 +69,7 @@ int columns = 3;
 
 // Speed calculation
 - (IBAction)calculate:(id)sender {
+    [self.view endEditing:YES];
     Calculator *calc = [[Calculator alloc]init];
     if(_distanceField.text.length>0){
         double distance = [[_distanceField text] doubleValue];
@@ -78,7 +78,7 @@ int columns = 3;
         long seconds = [[_secondsLabel text] integerValue];
         totalSeconds = hours*3600+minutes*60+seconds;
         if (!(totalSeconds ==0||distance==0)) {
-            speed = [calc calculateSpeedUsingDistance:distance andTime:totalSeconds withMode:mode kilometers:kilometersOrMiles];
+            speed = [calc calculateSpeedUsingDistance:distance andTime:totalSeconds withMode:speedMode kilometers:kilometersOrMiles];
             [_speedUnitLabel setText:[NSString stringWithFormat:@"%.2f %@",speed,speedFormat]];
         }
         else{

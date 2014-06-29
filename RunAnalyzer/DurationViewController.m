@@ -9,7 +9,9 @@
 #import "DurationViewController.h"
 #import "SettingsViewController.h"
 #import "Calculator.h"
+
 @interface DurationViewController ()
+
 @property (weak, nonatomic) IBOutlet UILabel *speedUnitLabel;
 @property (weak, nonatomic) IBOutlet UILabel *distanceUnitLabel;
 @property (weak, nonatomic) IBOutlet UITextField *speedField;
@@ -27,7 +29,7 @@ NSString *distanceFormat3 = @"km";
 NSString *speedFormat3 = @"km/h";
 NSArray *labelArray;
 BOOL kilometersOrMiles;
-long mode;
+long speedMode;
 
 - (void)viewDidLoad
 {
@@ -58,17 +60,18 @@ long mode;
 -(void)loadUnits:(SettingsViewController *)svc{
     distanceFormat3 = svc.distanceFormat;
     speedFormat3 = svc.speedFormat;
-    mode = svc.speedMode;
+    speedMode = svc.speedMode;
     kilometersOrMiles = svc.kilometersOrMiles;
 }
 
 - (IBAction)calculateDuration:(id)sender {
+    [self.view endEditing:YES];
     Calculator *calc = [[Calculator alloc]init];
     if (_distanceField.text.length>0) {
         double distance = [_distanceField.text doubleValue];
         double speed = [_speedField.text doubleValue];
         if (!(distance==0||speed==0)){
-            NSArray *ar = [calc calculateTimeUsingSpeed:speed andDistance:distance withMode:mode kilometers:kilometersOrMiles];
+            NSArray *ar = [calc calculateTimeUsingSpeed:speed andDistance:distance withMode:speedMode kilometers:kilometersOrMiles];
             for(int i = 0;i<[labelArray count];i++){
                 UILabel *label = [labelArray objectAtIndex:i];
                 if ([[ar objectAtIndex:i] integerValue]<10) {
@@ -83,6 +86,21 @@ long mode;
     }
 }
 
+- (IBAction)shareButtonClick:(id)sender {
+    if (_speedUnitLabel.text.length>0) {
+        NSString *shareMessage = [NSString stringWithFormat:@"I'm going to run for %@ hours, %@ minutes, %@ seconds",_hoursLabel.text,_minutesLabel.text,_secondsLabel.text];
+        if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]){
+            self.slComposeViewController = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+            [self.slComposeViewController setInitialText:shareMessage];
+            [self presentViewController:self.slComposeViewController animated:YES completion:NULL];
+        }
+        else{
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"No Accound Found" message:@"Configure a Twitter Account in settings " delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil, nil];
+            alert.alertViewStyle = UIAlertViewStyleDefault;
+            [alert show];
+        }
+    }
+}
 
 //Load data
 -(void)loadData{

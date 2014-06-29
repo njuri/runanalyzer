@@ -336,6 +336,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Share"/>
+                                <connections>
+                                    <action selector="shareButtonClick:" destination="TSa-Y4-p54" eventType="touchUpInside" id="8Lj-MC-TVt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -438,6 +441,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Share"/>
+                                <connections>
+                                    <action selector="shareButtonClick:" destination="4Ix-0B-xL3" eventType="touchUpInside" id="8K0-0Q-LRr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLl-vZ-VEk">
                                 <rect key="frame" x="32" y="363" width="42" height="21"/>
@@ -591,6 +597,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="lCr-vu-khS"/>
+        <segue reference="LyS-pA-UBK"/>
     </inferredMetricsTieBreakers>
 </document>

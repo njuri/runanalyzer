@@ -27,7 +27,6 @@
 		CB756724195F134C0059715D /* DistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756723195F134C0059715D /* DistanceViewController.m */; };
 		CB75672A195F65480059715D /* DurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756729195F65480059715D /* DurationViewController.m */; };
 		CB756735196007D70059715D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB756734196007D70059715D /* Social.framework */; };
-		CB756737196008020059715D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB756736196008020059715D /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB756737196008020059715D /* Twitter.framework in Frameworks */,
 				CB756735196007D70059715D /* Social.framework in Frameworks */,
 				CB565B03195AD878007EFD30 /* CoreGraphics.framework in Frameworks */,
 				CB565B05195AD878007EFD30 /* UIKit.framework in Frameworks */,
