@@ -17,6 +17,9 @@
 /* Class = "IBUILabel"; text = "s"; ObjectID = "4uh-8S-yTd"; */
 "4uh-8S-yTd.text" = "с";
 
+/* Class = "IBUIBarButtonItem"; title = "Settings"; ObjectID = "5s7-eP-tJQ"; */
+"5s7-eP-tJQ.title" = "Настройки";
+
 /* Class = "IBUINavigationItem"; title = "RunAnalyzer"; ObjectID = "5wd-Fe-8qt"; */
 "5wd-Fe-8qt.title" = "RunAnalyzer";
 
@@ -34,6 +37,9 @@
 
 /* Class = "IBUITableViewSection"; headerTitle = "Calculate"; ObjectID = "C4Q-Ug-5Hb"; */
 "C4Q-Ug-5Hb.headerTitle" = "Рассчитать";
+
+/* Class = "IBUIBarButtonItem"; title = "Settings"; ObjectID = "CQ0-SF-DLG"; */
+"CQ0-SF-DLG.title" = "Настройки";
 
 /* Class = "IBUINavigationItem"; title = "Calculate distance"; ObjectID = "Ckc-Ra-cym"; */
 "Ckc-Ra-cym.title" = "Рассчитать расстояние";
@@ -53,8 +59,8 @@
 /* Class = "IBUILabel"; text = "h"; ObjectID = "LyQ-2d-hhO"; */
 "LyQ-2d-hhO.text" = "ч";
 
-/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "PXz-jJ-vac"; */
-"PXz-jJ-vac.normalTitle" = "Настройки";
+/* Class = "IBUIBarButtonItem"; title = "Settings"; ObjectID = "PWT-dt-JaT"; */
+"PWT-dt-JaT.title" = "Настройки";
 
 /* Class = "IBUILabel"; text = "Duration"; ObjectID = "QTo-2f-kl3"; */
 "QTo-2f-kl3.text" = "Продолжительность";
@@ -77,9 +83,6 @@
 /* Class = "IBUILabel"; text = "00"; ObjectID = "YLl-vZ-VEk"; */
 "YLl-vZ-VEk.text" = "00";
 
-/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "aP2-ok-R0g"; */
-"aP2-ok-R0g.normalTitle" = "Настройки";
-
 /* Class = "IBUILabel"; text = "Distance"; ObjectID = "axh-b3-cQA"; */
 "axh-b3-cQA.text" = "Расстояние";
 
@@ -100,9 +103,6 @@
 
 /* Class = "IBUILabel"; text = "Speed"; ObjectID = "dAw-g9-Cbn"; */
 "dAw-g9-Cbn.text" = "Скорость";
-
-/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "dc0-ss-W6T"; */
-"dc0-ss-W6T.normalTitle" = "Настройки";
 
 /* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "f4L-99-4T9"; */
 "f4L-99-4T9.title" = "Настройки";
@@ -132,7 +132,7 @@
 "oBs-eY-7Av.segmentTitles[3]" = "мин/500м";
 
 /* Class = "IBUILabel"; text = "Distance format"; ObjectID = "pGb-h6-NK0"; */
-"pGb-h6-NK0.text" = "Формат расстояния";
+"pGb-h6-NK0.text" = "Формат расстояиня";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "pWX-d4-Ftl"; */
 "pWX-d4-Ftl.text" = "00";
@@ -144,10 +144,13 @@
 "rzb-7Q-tgR.text" = "Расстояние";
 
 /* Class = "IBUINavigationItem"; title = "Calculate duration"; ObjectID = "sFL-g6-cVp"; */
-"sFL-g6-cVp.title" = "Рассчитать время";
+"sFL-g6-cVp.title" = "Рассчитать продолжительность";
 
 /* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "stp-2C-7TL"; */
 "stp-2C-7TL.title" = "Назад";
+
+/* Class = "IBUIBarButtonItem"; title = "Settings"; ObjectID = "tL3-Ti-zjj"; */
+"tL3-Ti-zjj.title" = "Настройки";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "wAS-kq-SYZ"; */
 "wAS-kq-SYZ.text" = "00";
@@ -156,7 +159,7 @@
 "wxz-1m-WyY.normalTitle" = "Share";
 
 /* Class = "IBUIButton"; normalTitle = "Calculate duration"; ObjectID = "x3J-fX-C5O"; */
-"x3J-fX-C5O.normalTitle" = "Рассчитать время";
+"x3J-fX-C5O.normalTitle" = "Рассчитать продолжительность";
 
 /* Class = "IBUILabel"; text = "Speed format"; ObjectID = "yPP-eq-gtY"; */
 "yPP-eq-gtY.text" = "Формат скорости";
@@ -166,9 +169,6 @@
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "ymF-48-ihs"; */
 "ymF-48-ihs.text" = "00";
-
-/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "ysj-1e-KOl"; */
-"ysj-1e-KOl.normalTitle" = "Настройки";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "z45-Kq-FVi"; */
 "z45-Kq-FVi.text" = "00";

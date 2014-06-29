@@ -315,7 +315,7 @@
                                 <rect key="frame" x="34" y="393" width="252" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="Calculate distance">
+                                <state key="normal" title="Arvuta kaugus">
                                     <color key="titleColor" red="0.0" green="0.85090438180000005" blue="0.19153384540000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
