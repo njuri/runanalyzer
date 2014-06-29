@@ -13,4 +13,7 @@
 @property NSString *speedFormat;
 @property long speedMode;
 @property BOOL kilometersOrMiles;
+
+-(void)sendSettings;
+
 @end

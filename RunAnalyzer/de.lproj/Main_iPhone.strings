@@ -1,0 +1,177 @@
+
+/* Class = "IBUILabel"; text = "Speed"; ObjectID = "1Dk-q5-BEI"; */
+"1Dk-q5-BEI.text" = "Speed";
+
+/* Class = "IBUILabel"; text = "s"; ObjectID = "4M7-KF-fhU"; */
+"4M7-KF-fhU.text" = "s";
+
+/* Class = "IBUILabel"; text = "km"; ObjectID = "4VN-uP-c26"; */
+"4VN-uP-c26.text" = "km";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "4fE-Ir-ht3"; */
+"4fE-Ir-ht3.title" = "Back";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "4hH-ub-TJ3"; */
+"4hH-ub-TJ3.text" = "Label";
+
+/* Class = "IBUILabel"; text = "s"; ObjectID = "4uh-8S-yTd"; */
+"4uh-8S-yTd.text" = "s";
+
+/* Class = "IBUINavigationItem"; title = "RunAnalyzer"; ObjectID = "5wd-Fe-8qt"; */
+"5wd-Fe-8qt.title" = "RunAnalyzer";
+
+/* Class = "IBUILabel"; text = "m"; ObjectID = "67E-lC-dkB"; */
+"67E-lC-dkB.text" = "m";
+
+/* Class = "IBUILabel"; text = "h"; ObjectID = "7Fq-gA-JSn"; */
+"7Fq-gA-JSn.text" = "h";
+
+/* Class = "IBUILabel"; text = "Speed"; ObjectID = "83u-Tv-48m"; */
+"83u-Tv-48m.text" = "Speed";
+
+/* Class = "IBUILabel"; text = "Duration"; ObjectID = "873-wR-ExA"; */
+"873-wR-ExA.text" = "Duration";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Calculate"; ObjectID = "C4Q-Ug-5Hb"; */
+"C4Q-Ug-5Hb.headerTitle" = "Calculate";
+
+/* Class = "IBUINavigationItem"; title = "Calculate distance"; ObjectID = "Ckc-Ra-cym"; */
+"Ckc-Ra-cym.title" = "Calculate distance";
+
+/* Class = "IBUILabel"; text = "s"; ObjectID = "GEq-j3-XG8"; */
+"GEq-j3-XG8.text" = "s";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "H8J-nD-4Dl"; */
+"H8J-nD-4Dl.text" = "00";
+
+/* Class = "IBUILabel"; text = "m"; ObjectID = "HkX-Pb-YNu"; */
+"HkX-Pb-YNu.text" = "m";
+
+/* Class = "IBUIButton"; normalTitle = "Share"; ObjectID = "JZZ-iw-MGV"; */
+"JZZ-iw-MGV.normalTitle" = "Share";
+
+/* Class = "IBUILabel"; text = "h"; ObjectID = "LyQ-2d-hhO"; */
+"LyQ-2d-hhO.text" = "h";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "PXz-jJ-vac"; */
+"PXz-jJ-vac.normalTitle" = "Settings";
+
+/* Class = "IBUILabel"; text = "Duration"; ObjectID = "QTo-2f-kl3"; */
+"QTo-2f-kl3.text" = "Duration";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "TOl-Ae-AtP"; */
+"TOl-Ae-AtP.title" = "Back";
+
+/* Class = "IBUINavigationItem"; title = "Calculate speed"; ObjectID = "UdG-93-qWM"; */
+"UdG-93-qWM.title" = "Calculate speed";
+
+/* Class = "IBUIButton"; normalTitle = "Calculate distance"; ObjectID = "X1l-Xh-7f8"; */
+"X1l-Xh-7f8.normalTitle" = "Calculate distance";
+
+/* Class = "IBUILabel"; text = "h"; ObjectID = "XAH-MH-jxD"; */
+"XAH-MH-jxD.text" = "h";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "XGm-7v-xg6"; */
+"XGm-7v-xg6.text" = "Label";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "YLl-vZ-VEk"; */
+"YLl-vZ-VEk.text" = "00";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "aP2-ok-R0g"; */
+"aP2-ok-R0g.normalTitle" = "Settings";
+
+/* Class = "IBUILabel"; text = "Distance"; ObjectID = "axh-b3-cQA"; */
+"axh-b3-cQA.text" = "Distance";
+
+/* Class = "IBUILabel"; text = "Distance"; ObjectID = "bIF-9d-I32"; */
+"bIF-9d-I32.text" = "Distance";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "bcs-ld-i7s"; */
+"bcs-ld-i7s.title" = "Back";
+
+/* Class = "IBUISegmentedControl"; bwa-GD-eQV.segmentTitles[0] = "km"; ObjectID = "bwa-GD-eQV"; */
+"bwa-GD-eQV.segmentTitles[0]" = "km";
+
+/* Class = "IBUISegmentedControl"; bwa-GD-eQV.segmentTitles[1] = "mi"; ObjectID = "bwa-GD-eQV"; */
+"bwa-GD-eQV.segmentTitles[1]" = "mi";
+
+/* Class = "IBUILabel"; text = "m"; ObjectID = "cvz-eO-t6L"; */
+"cvz-eO-t6L.text" = "m";
+
+/* Class = "IBUILabel"; text = "Speed"; ObjectID = "dAw-g9-Cbn"; */
+"dAw-g9-Cbn.text" = "Speed";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "dc0-ss-W6T"; */
+"dc0-ss-W6T.normalTitle" = "Settings";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "f4L-99-4T9"; */
+"f4L-99-4T9.title" = "Settings";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "gWb-oz-A8S"; */
+"gWb-oz-A8S.text" = "00";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "jvy-y2-Mpe"; */
+"jvy-y2-Mpe.text" = "00";
+
+/* Class = "IBUIButton"; normalTitle = "Calculate speed"; ObjectID = "khQ-f0-hK9"; */
+"khQ-f0-hK9.normalTitle" = "Calculate speed";
+
+/* Class = "IBUILabel"; text = "Duration"; ObjectID = "lVF-Sg-i3W"; */
+"lVF-Sg-i3W.text" = "Duration";
+
+/* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[0] = "min/km"; ObjectID = "oBs-eY-7Av"; */
+"oBs-eY-7Av.segmentTitles[0]" = "min/km";
+
+/* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[1] = "km/min"; ObjectID = "oBs-eY-7Av"; */
+"oBs-eY-7Av.segmentTitles[1]" = "km/min";
+
+/* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[2] = "min/100m"; ObjectID = "oBs-eY-7Av"; */
+"oBs-eY-7Av.segmentTitles[2]" = "min/100m";
+
+/* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[3] = "min/500m"; ObjectID = "oBs-eY-7Av"; */
+"oBs-eY-7Av.segmentTitles[3]" = "min/500m";
+
+/* Class = "IBUILabel"; text = "Distance format"; ObjectID = "pGb-h6-NK0"; */
+"pGb-h6-NK0.text" = "Distance format";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "pWX-d4-Ftl"; */
+"pWX-d4-Ftl.text" = "00";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "rgp-CR-92Z"; */
+"rgp-CR-92Z.text" = "00";
+
+/* Class = "IBUILabel"; text = "Distance"; ObjectID = "rzb-7Q-tgR"; */
+"rzb-7Q-tgR.text" = "Distance";
+
+/* Class = "IBUINavigationItem"; title = "Calculate duration"; ObjectID = "sFL-g6-cVp"; */
+"sFL-g6-cVp.title" = "Calculate duration";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "stp-2C-7TL"; */
+"stp-2C-7TL.title" = "Back";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "wAS-kq-SYZ"; */
+"wAS-kq-SYZ.text" = "00";
+
+/* Class = "IBUIButton"; normalTitle = "Share"; ObjectID = "wxz-1m-WyY"; */
+"wxz-1m-WyY.normalTitle" = "Share";
+
+/* Class = "IBUIButton"; normalTitle = "Calculate duration"; ObjectID = "x3J-fX-C5O"; */
+"x3J-fX-C5O.normalTitle" = "Calculate duration";
+
+/* Class = "IBUILabel"; text = "Speed format"; ObjectID = "yPP-eq-gtY"; */
+"yPP-eq-gtY.text" = "Speed format";
+
+/* Class = "IBUIButton"; normalTitle = "Share"; ObjectID = "yiJ-Jt-ltG"; */
+"yiJ-Jt-ltG.normalTitle" = "Share";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "ymF-48-ihs"; */
+"ymF-48-ihs.text" = "00";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "ysj-1e-KOl"; */
+"ysj-1e-KOl.normalTitle" = "Settings";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "z45-Kq-FVi"; */
+"z45-Kq-FVi.text" = "00";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "zEX-9T-Ash"; */
+"zEX-9T-Ash.text" = "Label";

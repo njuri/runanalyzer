@@ -25,6 +25,7 @@
 
 NSString *distanceFormat3 = @"km";
 NSString *speedFormat3 = @"km/h";
+NSArray *labelArray;
 BOOL kilometersOrMiles;
 long mode;
 
@@ -32,6 +33,7 @@ long mode;
 {
     [super viewDidLoad];
     [self loadData];
+    labelArray = [[NSArray alloc] initWithObjects:_hoursLabel,_minutesLabel,_secondsLabel, nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -67,11 +69,17 @@ long mode;
         double speed = [_speedField.text doubleValue];
         if (!(distance==0||speed==0)){
             NSArray *ar = [calc calculateTimeUsingSpeed:speed andDistance:distance withMode:mode kilometers:kilometersOrMiles];
-            [_hoursLabel setText:[NSString stringWithFormat:@"%@",[ar objectAtIndex:0]]];
-            [_minutesLabel setText:[NSString stringWithFormat:@"%@",[ar objectAtIndex:1]]];
-            [_secondsLabel setText:[NSString stringWithFormat:@"%@",[ar objectAtIndex:2]]];
+            for(int i = 0;i<[labelArray count];i++){
+                UILabel *label = [labelArray objectAtIndex:i];
+                if ([[ar objectAtIndex:i] integerValue]<10) {
+                    [label setText:[NSString stringWithFormat:@"0%@",[ar objectAtIndex:i]]];
+                    NSLog(@"less");
+                }
+                else{
+                [label setText:[NSString stringWithFormat:@"%@",[ar objectAtIndex:i]]];
+                }
+            }
         }
-
     }
 }
 

@@ -10,6 +10,7 @@
 #import "SpeedViewController.h"
 #import "DistanceViewController.h"
 #import "DurationViewController.h"
+
 @interface SettingsViewController ()
 @property (weak, nonatomic) IBOutlet UISegmentedControl *speedSegment;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *unitSegment;
@@ -31,24 +32,14 @@
     else{
         _kilometersOrMiles = NO;
     }
-    SpeedViewController *svc = [[SpeedViewController alloc] init];
-    [svc loadUnits:self];
-    DistanceViewController *divc = [[DistanceViewController alloc] init];
-    [divc loadUnits:self];
-    DurationViewController *duvc = [[DurationViewController alloc] init];
-    [duvc loadUnits:self];
+    [self sendSettings];
     
 }
 
 - (IBAction)speedSelector:(id)sender {
     _speedFormat = [_speedSegment titleForSegmentAtIndex:_speedSegment.selectedSegmentIndex];
     _speedMode = _speedSegment.selectedSegmentIndex;
-    SpeedViewController *svc = [[SpeedViewController alloc] init];
-    [svc loadUnits:self];
-    DistanceViewController *divc = [[DistanceViewController alloc] init];
-    [divc loadUnits:self];
-    DurationViewController *duvc = [[DurationViewController alloc] init];
-    [duvc loadUnits:self];
+    [self sendSettings];
 }
 
 
@@ -71,12 +62,7 @@
     else{
         _kilometersOrMiles = NO;
     }
-    SpeedViewController *svc = [[SpeedViewController alloc] init];
-    [svc loadUnits:self];
-    DistanceViewController *divc = [[DistanceViewController alloc] init];
-    [divc loadUnits:self];
-    DurationViewController *duvc = [[DurationViewController alloc] init];
-    [duvc loadUnits:self];
+    [self sendSettings];
 }
 
 - (void)didReceiveMemoryWarning
@@ -90,6 +76,15 @@
     [defaults setInteger:_unitSegment.selectedSegmentIndex forKey:@"UnitSegment"];
     [defaults setInteger:_speedSegment.selectedSegmentIndex forKey:@"SpeedSegment"];
     [defaults setValue:[_unitSegment titleForSegmentAtIndex:_unitSegment.selectedSegmentIndex] forKey:@"SpeedUnit"];
+}
+
+-(void)sendSettings{
+    SpeedViewController *svc = [[SpeedViewController alloc] init];
+    [svc loadUnits:self];
+    DistanceViewController *divc = [[DistanceViewController alloc] init];
+    [divc loadUnits:self];
+    DurationViewController *duvc = [[DurationViewController alloc] init];
+    [duvc loadUnits:self];
 }
 
 @end

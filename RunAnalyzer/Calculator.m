@@ -70,8 +70,11 @@
     else if (mode == 1){
         return [self getHoursMinutesSecondsFromSeconds:distance*speed*60];
     }
+    else if (mode == 2){
+        return [self getHoursMinutesSecondsFromSeconds:distance*speed*60/10];
+    }
     else{
-        return NULL;
+        return [self getHoursMinutesSecondsFromSeconds:distance*speed*60*2];
     }
 }
 

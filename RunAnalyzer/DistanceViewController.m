@@ -87,22 +87,6 @@ int columns2 = 3;
     [self.view endEditing:YES];
 }
 
-//Initial load
--(void)initialLoad{
-    _secondsArray = [[NSMutableArray alloc]init];
-    _minutesArray = [[NSMutableArray alloc]init];
-    _hoursArray = [[NSMutableArray alloc]init];
-    for(int i = 0;i<60;i++){
-        [_secondsArray addObject:[NSString stringWithFormat:@"%i",i]];
-        [_minutesArray addObject:[NSString stringWithFormat:@"%i",i]];
-    }
-    for(int i = 0;i<24;i++){
-        [_hoursArray addObject:[NSString stringWithFormat:@"%i",i]];
-    }
-    timesArray = [[NSArray alloc] initWithObjects:_hoursArray,_minutesArray,_secondsArray, nil];
-    labelArray = [[NSArray alloc] initWithObjects:_hoursLabel,_minutesLabel,_secondsLabel, nil];
-}
-
 // The number of columns of data
 - (long)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
@@ -137,6 +121,22 @@ int columns2 = 3;
         [label setText:[[timesArray objectAtIndex:component] objectAtIndex:row]];
     }
     [self saveCalculationsState:self.picker];
+}
+
+//Initial load
+-(void)initialLoad{
+    _secondsArray = [[NSMutableArray alloc]init];
+    _minutesArray = [[NSMutableArray alloc]init];
+    _hoursArray = [[NSMutableArray alloc]init];
+    for(int i = 0;i<60;i++){
+        [_secondsArray addObject:[NSString stringWithFormat:@"%i",i]];
+        [_minutesArray addObject:[NSString stringWithFormat:@"%i",i]];
+    }
+    for(int i = 0;i<24;i++){
+        [_hoursArray addObject:[NSString stringWithFormat:@"%i",i]];
+    }
+    timesArray = [[NSArray alloc] initWithObjects:_hoursArray,_minutesArray,_secondsArray, nil];
+    labelArray = [[NSArray alloc] initWithObjects:_hoursLabel,_minutesLabel,_secondsLabel, nil];
 }
 
 //Load data
