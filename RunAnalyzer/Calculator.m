@@ -37,6 +37,7 @@
         }
     }
 }
+
 -(double)calculateDistanceUsingSpeed:(double)speed andTime:(long)seconds withMode:(long)mode kilometers:(BOOL)km{
     if (mode == 0) {
         return speed*(seconds/3600);
@@ -59,10 +60,9 @@
         else{
             return (seconds/speed/2)*0.6214;
         }
-
-        
     }
 }
+
 -(NSArray*)calculateTimeUsingSpeed:(double)speed andDistance:(double)distance withMode:(long)mode kilometers:(BOOL)km{
     if (mode == 0) {
         return [self getHoursMinutesSecondsFromSeconds:distance/speed*3600];
