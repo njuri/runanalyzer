@@ -86,6 +86,21 @@ int columns = 3;
         }
     }
 }
+- (IBAction)shareButtonClick:(id)sender {
+    if (_speedUnitLabel.text.length>0) {
+        NSString *shareMessage = [NSString stringWithFormat:@"I'm going to run with %@",_speedUnitLabel.text];
+        if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]){
+            self.slComposeViewController = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+            [self.slComposeViewController setInitialText:shareMessage];
+            [self presentViewController:self.slComposeViewController animated:YES completion:NULL];
+        }
+        else{
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"No Accound Found" message:@"Configure a Twitter Account in settings " delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil, nil];
+            alert.alertViewStyle = UIAlertViewStyleDefault;
+            [alert show];
+        }
+    }
+}
 
 // The number of columns of data
 - (long)numberOfComponentsInPickerView:(UIPickerView *)pickerView

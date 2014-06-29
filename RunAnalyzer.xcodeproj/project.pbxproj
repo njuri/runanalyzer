@@ -26,6 +26,8 @@
 		CB75671D195DA8510059715D /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB75671C195DA8510059715D /* SpeedViewController.m */; };
 		CB756724195F134C0059715D /* DistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756723195F134C0059715D /* DistanceViewController.m */; };
 		CB75672A195F65480059715D /* DurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB756729195F65480059715D /* DurationViewController.m */; };
+		CB756735196007D70059715D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB756734196007D70059715D /* Social.framework */; };
+		CB756737196008020059715D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB756736196008020059715D /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,11 @@
 		CB75672B195FF49A0059715D /* et */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = et; path = et.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		CB75672C195FF49A0059715D /* et */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = et; path = et.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB75672D195FF49A0059715D /* et */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = et; path = et.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB756731195FFD490059715D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		CB756732195FFD490059715D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB756733195FFD490059715D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB756734196007D70059715D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CB756736196008020059715D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB756737196008020059715D /* Twitter.framework in Frameworks */,
+				CB756735196007D70059715D /* Social.framework in Frameworks */,
 				CB565B03195AD878007EFD30 /* CoreGraphics.framework in Frameworks */,
 				CB565B05195AD878007EFD30 /* UIKit.framework in Frameworks */,
 				CB565B01195AD878007EFD30 /* Foundation.framework in Frameworks */,
@@ -119,6 +128,8 @@
 		CB565AFF195AD878007EFD30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB756736196008020059715D /* Twitter.framework */,
+				CB756734196007D70059715D /* Social.framework */,
 				CB565B00195AD878007EFD30 /* Foundation.framework */,
 				CB565B02195AD878007EFD30 /* CoreGraphics.framework */,
 				CB565B04195AD878007EFD30 /* UIKit.framework */,
@@ -240,6 +251,7 @@
 				Base,
 				et,
 				de,
+				ru,
 			);
 			mainGroup = CB565AF4195AD878007EFD30;
 			productRefGroup = CB565AFE195AD878007EFD30 /* Products */;
@@ -313,6 +325,7 @@
 			children = (
 				CB565B0A195AD878007EFD30 /* en */,
 				CB75672C195FF49A0059715D /* et */,
+				CB756732195FFD490059715D /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -322,6 +335,7 @@
 			children = (
 				CB565B13195AD878007EFD30 /* Base */,
 				CB75672B195FF49A0059715D /* et */,
+				CB756731195FFD490059715D /* ru */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -331,6 +345,7 @@
 			children = (
 				CB565B2C195AD878007EFD30 /* en */,
 				CB75672D195FF49A0059715D /* et */,
+				CB756733195FFD490059715D /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

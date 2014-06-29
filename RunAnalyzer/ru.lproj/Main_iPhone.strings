@@ -1,75 +1,75 @@
 
 /* Class = "IBUILabel"; text = "Speed"; ObjectID = "1Dk-q5-BEI"; */
-"1Dk-q5-BEI.text" = "Kiirus";
+"1Dk-q5-BEI.text" = "Скорость";
 
 /* Class = "IBUILabel"; text = "s"; ObjectID = "4M7-KF-fhU"; */
-"4M7-KF-fhU.text" = "s";
+"4M7-KF-fhU.text" = "с";
 
 /* Class = "IBUILabel"; text = "km"; ObjectID = "4VN-uP-c26"; */
-"4VN-uP-c26.text" = "km";
+"4VN-uP-c26.text" = "км";
 
 /* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "4fE-Ir-ht3"; */
-"4fE-Ir-ht3.title" = "Tagasi";
+"4fE-Ir-ht3.title" = "Назад";
 
 /* Class = "IBUILabel"; text = "Label"; ObjectID = "4hH-ub-TJ3"; */
 "4hH-ub-TJ3.text" = "Label";
 
 /* Class = "IBUILabel"; text = "s"; ObjectID = "4uh-8S-yTd"; */
-"4uh-8S-yTd.text" = "s";
+"4uh-8S-yTd.text" = "с";
 
 /* Class = "IBUINavigationItem"; title = "RunAnalyzer"; ObjectID = "5wd-Fe-8qt"; */
 "5wd-Fe-8qt.title" = "RunAnalyzer";
 
 /* Class = "IBUILabel"; text = "m"; ObjectID = "67E-lC-dkB"; */
-"67E-lC-dkB.text" = "m";
+"67E-lC-dkB.text" = "м";
 
 /* Class = "IBUILabel"; text = "h"; ObjectID = "7Fq-gA-JSn"; */
-"7Fq-gA-JSn.text" = "h";
+"7Fq-gA-JSn.text" = "ч";
 
 /* Class = "IBUILabel"; text = "Speed"; ObjectID = "83u-Tv-48m"; */
-"83u-Tv-48m.text" = "Kiirus";
+"83u-Tv-48m.text" = "Скорость";
 
 /* Class = "IBUILabel"; text = "Duration"; ObjectID = "873-wR-ExA"; */
-"873-wR-ExA.text" = "Kestus";
+"873-wR-ExA.text" = "Продолжительность";
 
 /* Class = "IBUITableViewSection"; headerTitle = "Calculate"; ObjectID = "C4Q-Ug-5Hb"; */
-"C4Q-Ug-5Hb.headerTitle" = "Arvuta";
+"C4Q-Ug-5Hb.headerTitle" = "Рассчитать";
 
 /* Class = "IBUINavigationItem"; title = "Calculate distance"; ObjectID = "Ckc-Ra-cym"; */
-"Ckc-Ra-cym.title" = "Arvuta kaugus";
+"Ckc-Ra-cym.title" = "Рассчитать расстояние";
 
 /* Class = "IBUILabel"; text = "s"; ObjectID = "GEq-j3-XG8"; */
-"GEq-j3-XG8.text" = "s";
+"GEq-j3-XG8.text" = "с";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "H8J-nD-4Dl"; */
 "H8J-nD-4Dl.text" = "00";
 
 /* Class = "IBUILabel"; text = "m"; ObjectID = "HkX-Pb-YNu"; */
-"HkX-Pb-YNu.text" = "m";
+"HkX-Pb-YNu.text" = "м";
 
 /* Class = "IBUIButton"; normalTitle = "Share"; ObjectID = "JZZ-iw-MGV"; */
-"JZZ-iw-MGV.normalTitle" = "Jaga";
+"JZZ-iw-MGV.normalTitle" = "Share";
 
 /* Class = "IBUILabel"; text = "h"; ObjectID = "LyQ-2d-hhO"; */
-"LyQ-2d-hhO.text" = "h";
+"LyQ-2d-hhO.text" = "ч";
 
 /* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "PXz-jJ-vac"; */
-"PXz-jJ-vac.normalTitle" = "Settings";
+"PXz-jJ-vac.normalTitle" = "Настройки";
 
 /* Class = "IBUILabel"; text = "Duration"; ObjectID = "QTo-2f-kl3"; */
-"QTo-2f-kl3.text" = "Kestus";
+"QTo-2f-kl3.text" = "Продолжительность";
 
 /* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "TOl-Ae-AtP"; */
-"TOl-Ae-AtP.title" = "Tagasi";
+"TOl-Ae-AtP.title" = "Назад";
 
 /* Class = "IBUINavigationItem"; title = "Calculate speed"; ObjectID = "UdG-93-qWM"; */
-"UdG-93-qWM.title" = "Arvuta kiirus";
+"UdG-93-qWM.title" = "Рассчитать скорость";
 
 /* Class = "IBUIButton"; normalTitle = "Calculate distance"; ObjectID = "X1l-Xh-7f8"; */
-"X1l-Xh-7f8.normalTitle" = "Arvuta kaugus";
+"X1l-Xh-7f8.normalTitle" = "Рассчитать расстояние";
 
 /* Class = "IBUILabel"; text = "h"; ObjectID = "XAH-MH-jxD"; */
-"XAH-MH-jxD.text" = "h";
+"XAH-MH-jxD.text" = "ч";
 
 /* Class = "IBUILabel"; text = "Label"; ObjectID = "XGm-7v-xg6"; */
 "XGm-7v-xg6.text" = "Label";
@@ -78,34 +78,34 @@
 "YLl-vZ-VEk.text" = "00";
 
 /* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "aP2-ok-R0g"; */
-"aP2-ok-R0g.normalTitle" = "Seaded";
+"aP2-ok-R0g.normalTitle" = "Настройки";
 
 /* Class = "IBUILabel"; text = "Distance"; ObjectID = "axh-b3-cQA"; */
-"axh-b3-cQA.text" = "Kaugus";
+"axh-b3-cQA.text" = "Расстояние";
 
 /* Class = "IBUILabel"; text = "Distance"; ObjectID = "bIF-9d-I32"; */
-"bIF-9d-I32.text" = "Kaugus";
+"bIF-9d-I32.text" = "Расстояние";
 
 /* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "bcs-ld-i7s"; */
-"bcs-ld-i7s.title" = "Tagasi";
+"bcs-ld-i7s.title" = "Назад";
 
 /* Class = "IBUISegmentedControl"; bwa-GD-eQV.segmentTitles[0] = "km"; ObjectID = "bwa-GD-eQV"; */
-"bwa-GD-eQV.segmentTitles[0]" = "km";
+"bwa-GD-eQV.segmentTitles[0]" = "км";
 
 /* Class = "IBUISegmentedControl"; bwa-GD-eQV.segmentTitles[1] = "mi"; ObjectID = "bwa-GD-eQV"; */
-"bwa-GD-eQV.segmentTitles[1]" = "mi";
+"bwa-GD-eQV.segmentTitles[1]" = "ми";
 
 /* Class = "IBUILabel"; text = "m"; ObjectID = "cvz-eO-t6L"; */
-"cvz-eO-t6L.text" = "m";
+"cvz-eO-t6L.text" = "м";
 
 /* Class = "IBUILabel"; text = "Speed"; ObjectID = "dAw-g9-Cbn"; */
-"dAw-g9-Cbn.text" = "Kiirus";
+"dAw-g9-Cbn.text" = "Скорость";
 
 /* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "dc0-ss-W6T"; */
-"dc0-ss-W6T.normalTitle" = "Seaded";
+"dc0-ss-W6T.normalTitle" = "Настройки";
 
 /* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "f4L-99-4T9"; */
-"f4L-99-4T9.title" = "Seaded";
+"f4L-99-4T9.title" = "Настройки";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "gWb-oz-A8S"; */
 "gWb-oz-A8S.text" = "00";
@@ -114,25 +114,25 @@
 "jvy-y2-Mpe.text" = "00";
 
 /* Class = "IBUIButton"; normalTitle = "Calculate speed"; ObjectID = "khQ-f0-hK9"; */
-"khQ-f0-hK9.normalTitle" = "Arvuta kiirus";
+"khQ-f0-hK9.normalTitle" = "Рассчитать скорость";
 
 /* Class = "IBUILabel"; text = "Duration"; ObjectID = "lVF-Sg-i3W"; */
-"lVF-Sg-i3W.text" = "Kestus";
+"lVF-Sg-i3W.text" = "Продолжительность";
 
-/* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[0] = "min/km"; ObjectID = "oBs-eY-7Av"; */
-"oBs-eY-7Av.segmentTitles[0]" = "min/km";
+/* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[0] = "km/h"; ObjectID = "oBs-eY-7Av"; */
+"oBs-eY-7Av.segmentTitles[0]" = "км/ч";
 
 /* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[1] = "km/min"; ObjectID = "oBs-eY-7Av"; */
-"oBs-eY-7Av.segmentTitles[1]" = "km/min";
+"oBs-eY-7Av.segmentTitles[1]" = "км/мин";
 
 /* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[2] = "min/100m"; ObjectID = "oBs-eY-7Av"; */
-"oBs-eY-7Av.segmentTitles[2]" = "min/100m";
+"oBs-eY-7Av.segmentTitles[2]" = "мин/100м";
 
 /* Class = "IBUISegmentedControl"; oBs-eY-7Av.segmentTitles[3] = "min/500m"; ObjectID = "oBs-eY-7Av"; */
-"oBs-eY-7Av.segmentTitles[3]" = "min/500m";
+"oBs-eY-7Av.segmentTitles[3]" = "мин/500м";
 
 /* Class = "IBUILabel"; text = "Distance format"; ObjectID = "pGb-h6-NK0"; */
-"pGb-h6-NK0.text" = "Kauguse formaat";
+"pGb-h6-NK0.text" = "Формат расстояния";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "pWX-d4-Ftl"; */
 "pWX-d4-Ftl.text" = "00";
@@ -141,34 +141,34 @@
 "rgp-CR-92Z.text" = "00";
 
 /* Class = "IBUILabel"; text = "Distance"; ObjectID = "rzb-7Q-tgR"; */
-"rzb-7Q-tgR.text" = "Kaugus";
+"rzb-7Q-tgR.text" = "Расстояние";
 
 /* Class = "IBUINavigationItem"; title = "Calculate duration"; ObjectID = "sFL-g6-cVp"; */
-"sFL-g6-cVp.title" = "Arvuta kestus";
+"sFL-g6-cVp.title" = "Рассчитать время";
 
 /* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "stp-2C-7TL"; */
-"stp-2C-7TL.title" = "Tagasi";
+"stp-2C-7TL.title" = "Назад";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "wAS-kq-SYZ"; */
 "wAS-kq-SYZ.text" = "00";
 
 /* Class = "IBUIButton"; normalTitle = "Share"; ObjectID = "wxz-1m-WyY"; */
-"wxz-1m-WyY.normalTitle" = "Jaga";
+"wxz-1m-WyY.normalTitle" = "Share";
 
 /* Class = "IBUIButton"; normalTitle = "Calculate duration"; ObjectID = "x3J-fX-C5O"; */
-"x3J-fX-C5O.normalTitle" = "Arvuta kestus";
+"x3J-fX-C5O.normalTitle" = "Рассчитать время";
 
 /* Class = "IBUILabel"; text = "Speed format"; ObjectID = "yPP-eq-gtY"; */
-"yPP-eq-gtY.text" = "Kiiruse formaat";
+"yPP-eq-gtY.text" = "Формат скорости";
 
 /* Class = "IBUIButton"; normalTitle = "Share"; ObjectID = "yiJ-Jt-ltG"; */
-"yiJ-Jt-ltG.normalTitle" = "Jaga";
+"yiJ-Jt-ltG.normalTitle" = "Share";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "ymF-48-ihs"; */
 "ymF-48-ihs.text" = "00";
 
 /* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "ysj-1e-KOl"; */
-"ysj-1e-KOl.normalTitle" = "Seaded";
+"ysj-1e-KOl.normalTitle" = "Настройки";
 
 /* Class = "IBUILabel"; text = "00"; ObjectID = "z45-Kq-FVi"; */
 "z45-Kq-FVi.text" = "00";
