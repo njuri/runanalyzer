@@ -79,7 +79,6 @@ int columns = 3;
         totalSeconds = hours*3600+minutes*60+seconds;
         if (!(totalSeconds ==0||distance==0)) {
             speed = [calc calculateSpeedUsingDistance:distance andTime:totalSeconds withMode:mode kilometers:kilometersOrMiles];
-            NSLog(@"Calculating distance: %f and seconds %ld",distance,totalSeconds);
             [_speedUnitLabel setText:[NSString stringWithFormat:@"%.2f %@",speed,speedFormat]];
         }
         else{

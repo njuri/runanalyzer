@@ -47,14 +47,14 @@
 {
     [super viewDidLoad];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    if ([defaults objectForKey:@"UnitSegment"]||[defaults objectForKey:@"SpeedUnit1"]||[defaults objectForKey:@"SpeedUnit2"]||[defaults objectForKey:@"SpeedSegment"]){
+    if ([defaults objectForKey:@"UnitSegment"]||[defaults objectForKey:@"SpeedUnit"]||[defaults objectForKey:@"SpeedSegment"]){
         self.unitSegment.selectedSegmentIndex = [defaults integerForKey:@"UnitSegment"];
         self.speedSegment.selectedSegmentIndex = [defaults integerForKey:@"SpeedSegment"];
         [_speedSegment setTitle:[NSString stringWithFormat:@"%@/h",[defaults valueForKey:@"SpeedUnit"]] forSegmentAtIndex:0];
         [_speedSegment setTitle:[NSString stringWithFormat:@"min/%@",[defaults valueForKey:@"SpeedUnit"]] forSegmentAtIndex:1];
     }
     _distanceFormat  = [_unitSegment titleForSegmentAtIndex:_unitSegment.selectedSegmentIndex];
-    _speedFormat = [_speedSegment titleForSegmentAtIndex:_unitSegment.selectedSegmentIndex];
+    _speedFormat = [_speedSegment titleForSegmentAtIndex:_speedSegment.selectedSegmentIndex];
     _speedMode = _speedSegment.selectedSegmentIndex;
     if ([_distanceFormat isEqualToString:@"km"]) {
         _kilometersOrMiles = YES;
